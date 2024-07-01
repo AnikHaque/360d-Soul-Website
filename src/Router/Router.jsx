@@ -10,6 +10,7 @@ import EventsPage from "../Pages/EventsPage/EventsPage";
 import Career from "../Components/Career/Career";
 import GalleryPage from "../Pages/GallaryPage/GalleryPage";
 import HROperations from "../Pages/WhatWeDo/Business-Operations/Hr-Operations/HROperations";
+import Choose from "../Components/Choose/Choose";
 
 const router = createBrowserRouter([
   {
@@ -52,6 +53,10 @@ const router = createBrowserRouter([
       {
         path: "/hr-operations",
         element: <HROperations></HROperations>,
+      },
+      {
+        path: "/why-choose-us",
+        element: <Choose></Choose>,
       },
     ],
   },

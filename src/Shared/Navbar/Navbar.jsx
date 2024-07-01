@@ -63,6 +63,9 @@ const Navbar = () => {
           <summary>Company</summary>
           <ul className="bg-base-300 text-black  rounded-t-none min-w-52">
             <li>
+              <Link to="/why-choose-us">Why Choose Us</Link>
+            </li>
+            <li>
               <Link to="/our-events">Our Events</Link>
             </li>
             <li>
