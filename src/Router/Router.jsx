@@ -9,6 +9,7 @@ import TeamPage from "../Pages/TeamPage/TeamPage";
 import EventsPage from "../Pages/EventsPage/EventsPage";
 import Career from "../Components/Career/Career";
 import GalleryPage from "../Pages/GallaryPage/GalleryPage";
+import HROperations from "../Pages/WhatWeDo/Business-Operations/Hr-Operations/HROperations";
 
 const router = createBrowserRouter([
   {
@@ -47,6 +48,10 @@ const router = createBrowserRouter([
       {
         path: "/gallery",
         element: <GalleryPage></GalleryPage>,
+      },
+      {
+        path: "/hr-operations",
+        element: <HROperations></HROperations>,
       },
     ],
   },

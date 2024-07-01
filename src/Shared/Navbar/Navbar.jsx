@@ -24,6 +24,42 @@ const Navbar = () => {
       </li>
       <li>
         <details>
+          <summary>What We Do</summary>
+          <ul className="bg-base-300 text-black  rounded-t-none min-w-52">
+            <li>
+              <details>
+                <summary>Business Strategy</summary>
+                <ul className="bg-base-300 text-black  rounded-t-none min-w-52">
+                  <li>
+                    <Link to="/our-events">HR Strategy & Planning</Link>
+                  </li>
+                  <li>
+                    <Link to="/career">IT Strategy & Planning</Link>
+                  </li>
+                  <li>
+                    <Link to="/career">Marketing Strategy</Link>
+                  </li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <details>
+                <summary>Business Operations</summary>
+                <ul className="bg-base-300 text-black  rounded-t-none min-w-52">
+                  <li>
+                    <Link to="/hr-operations">HR Operations</Link>
+                  </li>
+                  <li>
+                    <Link to="/career">IT Operations</Link>
+                  </li>
+                </ul>
+              </details>
+            </li>
+          </ul>
+        </details>
+      </li>
+      <li>
+        <details>
           <summary>Company</summary>
           <ul className="bg-base-300 text-black  rounded-t-none min-w-52">
             <li>
