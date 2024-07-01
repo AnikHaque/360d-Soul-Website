@@ -1,8 +1,55 @@
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
+  const navItems = (
+    <>
+      <li>
+        <Link to="about">Home</Link>
+      </li>
+
+      <li>
+        <Link to="/about">About Us</Link>
+      </li>
+      <li>
+        <Link to="about">Services</Link>
+      </li>
+      <li>
+        <Link to="/blog">Blogs</Link>
+      </li>
+      <li>
+        <Link to="team">Our Team</Link>
+      </li>
+      <li>
+        <Link to="/contact-us">Contact</Link>
+      </li>
+      <li>
+        <details>
+          <summary>Company</summary>
+          <ul className="bg-base-300 text-black  rounded-t-none min-w-52">
+            <li>
+              <Link to="/our-events">Our Events</Link>
+            </li>
+            <li>
+              <Link to="/career">Career</Link>
+            </li>
+            <li>
+              <Link to="/gallery">Our Gallery</Link>
+            </li>
+            <li>
+              <Link to="/events">Our News</Link>
+            </li>
+            <li>
+              <Link to="/our-events">Analyst Reports</Link>
+            </li>
+          </ul>
+        </details>
+      </li>
+    </>
+  );
   return (
-    <div>
-      <div className="navbar  bg-black text-white ">
-        <div className="navbar-start container mx-auto justify-center items-center">
+    <div className="bg-black text-white">
+      <div className="navbar container mx-auto ">
+        <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
@@ -24,23 +71,7 @@ const Navbar = () => {
               tabIndex={0}
               className="menu menu-sm dropdown-content bg-black rounded-box z-[1] mt-3 w-52 p-2 shadow"
             >
-              <li>
-                <a>About</a>
-              </li>
-              <li>
-                <a>Parent</a>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a>Item 3</a>
-              </li>
+              {navItems}
             </ul>
           </div>
           <img
@@ -50,24 +81,10 @@ const Navbar = () => {
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 font-semibold text-md">
-            <li>
-              <a>Home</a>
-            </li>
-            <li>
-              <a>About</a>
-            </li>
-            <li>
-              <a>Services</a>
-            </li>
-            <li>
-              <a>Blogs</a>
-            </li>
-            <li>
-              <a>Contact</a>
-            </li>
+            {navItems}
           </ul>
         </div>
-        <div className="navbar-end container mx-auto justify-center items-center">
+        <div className="navbar-end container mx-auto ">
           <button className="btn btn-ghost btn-circle">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -84,8 +101,12 @@ const Navbar = () => {
               />
             </svg>
           </button>
-          <a className="btn mr-5">View Accounts</a>
-          <button className="btn btn-outline text-white ">Contact Sales</button>
+          <div className="hidden lg:block">
+            <a className="btn mr-5">View Accounts</a>
+            <button className="btn btn-outline text-white ">
+              Contact Sales
+            </button>
+          </div>
         </div>
       </div>
     </div>
