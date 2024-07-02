@@ -50,7 +50,17 @@ const Navbar = () => {
                     <Link to="/hr-operations">HR Operations</Link>
                   </li>
                   <li>
-                    <Link to="/career">IT Operations</Link>
+                    <details>
+                      <summary>IT Operations</summary>
+                      <ul className="bg-base-300 text-black  rounded-t-none min-w-52">
+                        <li>
+                          <Link to="/IT-Services">IT Services</Link>
+                        </li>
+                        <li>
+                          <Link to="/career">IT Solutions</Link>
+                        </li>
+                      </ul>
+                    </details>
                   </li>
                 </ul>
               </details>

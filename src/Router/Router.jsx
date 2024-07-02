@@ -11,6 +11,7 @@ import Career from "../Components/Career/Career";
 import GalleryPage from "../Pages/GallaryPage/GalleryPage";
 import HROperations from "../Pages/WhatWeDo/Business-Operations/Hr-Operations/HROperations";
 import Choose from "../Components/Choose/Choose";
+import ITServices from "../Pages/WhatWeDo/Business-Operations/It-Operations/IT-Services/IT-Services";
 
 const router = createBrowserRouter([
   {
@@ -57,6 +58,10 @@ const router = createBrowserRouter([
       {
         path: "/why-choose-us",
         element: <Choose></Choose>,
+      },
+      {
+        path: "/IT-Services",
+        element: <ITServices></ITServices>,
       },
     ],
   },
