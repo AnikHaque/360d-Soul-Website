@@ -1,9 +1,9 @@
 import AnalysisBusinessBanner from "./AnalysisBusinessBanner";
-import AnalysisBusinessFuture from "./AnalysisBusinessFuture";
+import AnalyticsCaseStudy from "./AnalyticsCaseStudy";
+import AnalyticsMethodology from "./AnalyticsMethodology";
 import AnalyticsServiceProvide from "./AnalyticsServiceProvide";
+import AnalyticsTools from "./AnalyticsTools";
 import BusinessAnalysisIntro from "./BusinessAnalysisIntro";
-import BusinessWork from "./BusinessWork";
-import DataAnalyticsIntro from "./DataAnalyticsIntro";
 
 const AnalysisBusiness = () => {
   return (
@@ -11,9 +11,9 @@ const AnalysisBusiness = () => {
       <AnalysisBusinessBanner></AnalysisBusinessBanner>
       <BusinessAnalysisIntro></BusinessAnalysisIntro>
       <AnalyticsServiceProvide></AnalyticsServiceProvide>
-      <BusinessWork></BusinessWork>
-      <AnalysisBusinessFuture></AnalysisBusinessFuture>
-      <DataAnalyticsIntro></DataAnalyticsIntro>
+      <AnalyticsMethodology></AnalyticsMethodology>
+      <AnalyticsCaseStudy></AnalyticsCaseStudy>
+      <AnalyticsTools></AnalyticsTools>
     </div>
   );
 };

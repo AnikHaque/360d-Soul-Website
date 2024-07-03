@@ -15,8 +15,8 @@ const BusinessAnalysisIntro = () => {
                 correlations, and trends that inform business decisions.
               </p>
               <p className="text-base text-gray-700 md:text-lg text-justify">
-                In today's data-driven world, leveraging data analysis and BI
-                can significantly enhance a company's ability to compete and
+                In todays data-driven world, leveraging data analysis and BI can
+                significantly enhance a companys ability to compete and
                 innovate. These services enable organizations to transform raw
                 data into actionable insights, providing a clear understanding
                 of their operations, customer behaviors, and market dynamics. By
