@@ -1,283 +1,114 @@
 const Blog = () => {
   return (
     <div>
-      <div className="px-4 py-16  container mx-auto  md:px-24 lg:px-8 lg:py-20">
-        <div className="grid gap-8 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
-          <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
-            <img
-              src="https://images.pexels.com/photos/2408666/pexels-photo-2408666.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500"
-              className="object-cover w-full h-64"
-              alt=""
-            />
-            <div className="p-5 border border-t-0">
-              <p className="mb-3 text-xs font-semibold tracking-wide uppercase">
-                <a
-                  href="/"
-                  className="transition-colors duration-200 text-blue-gray-900 hover:text-deep-purple-accent-700"
-                  aria-label="Category"
-                  title="traveling"
-                >
-                  traveling
+      <section className="text-gray-600 body-font overflow-hidden">
+        <div className="container px-5 py-24 mx-auto">
+          <div className="-my-8 divide-y-2 divide-gray-100">
+            <div className="py-8 flex flex-wrap md:flex-nowrap">
+              <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                <span className="font-semibold title-font text-gray-700">
+                  CATEGORY
+                </span>
+                <span className="mt-1 text-gray-500 text-sm">12 Jun 2019</span>
+              </div>
+              <div className="md:flex-grow">
+                <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">
+                  Bitters hashtag waistcoat fashion axe chia unicorn
+                </h2>
+                <p className="leading-relaxed">
+                  Glossier echo park pug, church-key sartorial biodiesel
+                  vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf
+                  moon party messenger bag selfies, poke vaporware kombucha
+                  lumbersexual pork belly polaroid hoodie portland craft beer.
+                </p>
+                <a className="text-indigo-500 inline-flex items-center mt-4">
+                  Learn More
+                  <svg
+                    className="w-4 h-4 ml-2"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    fill="none"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
                 </a>
-                <span className="text-gray-600">— 28 Dec 2020</span>
-              </p>
-              <a
-                href="/"
-                aria-label="Category"
-                title="Visit the East"
-                className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700"
-              >
-                Visit the East
-              </a>
-              <p className="mb-2 text-gray-700">
-                Sed ut perspiciatis unde omnis iste natus error sit sed quia
-                consequuntur magni voluptatem doloremque.
-              </p>
-              <a
-                href="/"
-                aria-label=""
-                className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-              >
-                Learn more
-              </a>
+              </div>
             </div>
-          </div>
-          <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
-            <img
-              src="https://images.pexels.com/photos/447592/pexels-photo-447592.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-              className="object-cover w-full h-64"
-              alt=""
-            />
-            <div className="p-5 border border-t-0">
-              <p className="mb-3 text-xs font-semibold tracking-wide uppercase">
-                <a
-                  href="/"
-                  className="transition-colors duration-200 text-blue-gray-900 hover:text-deep-purple-accent-700"
-                  aria-label="Category"
-                  title="traveling"
-                >
-                  traveling
+            <div className="py-8 flex flex-wrap md:flex-nowrap">
+              <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                <span className="font-semibold title-font text-gray-700">
+                  CATEGORY
+                </span>
+                <span className="mt-1 text-gray-500 text-sm">12 Jun 2019</span>
+              </div>
+              <div className="md:flex-grow">
+                <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">
+                  Meditation bushwick direct trade taxidermy shaman
+                </h2>
+                <p className="leading-relaxed">
+                  Glossier echo park pug, church-key sartorial biodiesel
+                  vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf
+                  moon party messenger bag selfies, poke vaporware kombucha
+                  lumbersexual pork belly polaroid hoodie portland craft beer.
+                </p>
+                <a className="text-indigo-500 inline-flex items-center mt-4">
+                  Learn More
+                  <svg
+                    className="w-4 h-4 ml-2"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    fill="none"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
                 </a>
-                <span className="text-gray-600">— 28 Dec 2020</span>
-              </p>
-              <a
-                href="/"
-                aria-label="Category"
-                title="Simple is better"
-                className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700"
-              >
-                Simple is better
-              </a>
-              <p className="mb-2 text-gray-700">
-                Sed ut perspiciatis unde omnis iste natus error sit sed quia
-                consequuntur magni voluptatem doloremque.
-              </p>
-              <a
-                href="/"
-                aria-label=""
-                className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-              >
-                Learn more
-              </a>
+              </div>
             </div>
-          </div>
-          <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
-            <img
-              src="https://images.pexels.com/photos/139829/pexels-photo-139829.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-              className="object-cover w-full h-64"
-              alt=""
-            />
-            <div className="p-5 border border-t-0">
-              <p className="mb-3 text-xs font-semibold tracking-wide uppercase">
-                <a
-                  href="/"
-                  className="transition-colors duration-200 text-blue-gray-900 hover:text-deep-purple-accent-700"
-                  aria-label="Category"
-                  title="traveling"
-                >
-                  traveling
+            <div className="py-8 flex flex-wrap md:flex-nowrap">
+              <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                <span className="font-semibold title-font text-gray-700">
+                  CATEGORY
+                </span>
+                <span className="text-sm text-gray-500">12 Jun 2019</span>
+              </div>
+              <div className="md:flex-grow">
+                <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">
+                  Woke master cleanse drinking vinegar salvia
+                </h2>
+                <p className="leading-relaxed">
+                  Glossier echo park pug, church-key sartorial biodiesel
+                  vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf
+                  moon party messenger bag selfies, poke vaporware kombucha
+                  lumbersexual pork belly polaroid hoodie portland craft beer.
+                </p>
+                <a className="text-indigo-500 inline-flex items-center mt-4">
+                  Learn More
+                  <svg
+                    className="w-4 h-4 ml-2"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    fill="none"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
                 </a>
-                <span className="text-gray-600">— 28 Dec 2020</span>
-              </p>
-              <a
-                href="/"
-                aria-label="Category"
-                title="Film It!"
-                className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700"
-              >
-                Film It!
-              </a>
-              <p className="mb-2 text-gray-700">
-                Sed ut perspiciatis unde omnis iste natus error sit sed quia
-                consequuntur magni voluptatem doloremque.
-              </p>
-              <a
-                href="/"
-                aria-label=""
-                className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-              >
-                Learn more
-              </a>
-            </div>
-          </div>
-          <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
-            <img
-              src="https://images.pexels.com/photos/139829/pexels-photo-139829.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-              className="object-cover w-full h-64"
-              alt=""
-            />
-            <div className="p-5 border border-t-0">
-              <p className="mb-3 text-xs font-semibold tracking-wide uppercase">
-                <a
-                  href="/"
-                  className="transition-colors duration-200 text-blue-gray-900 hover:text-deep-purple-accent-700"
-                  aria-label="Category"
-                  title="traveling"
-                >
-                  traveling
-                </a>
-                <span className="text-gray-600">— 28 Dec 2020</span>
-              </p>
-              <a
-                href="/"
-                aria-label="Category"
-                title="Film It!"
-                className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700"
-              >
-                Film It!
-              </a>
-              <p className="mb-2 text-gray-700">
-                Sed ut perspiciatis unde omnis iste natus error sit sed quia
-                consequuntur magni voluptatem doloremque.
-              </p>
-              <a
-                href="/"
-                aria-label=""
-                className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-              >
-                Learn more
-              </a>
-            </div>
-          </div>
-          <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
-            <img
-              src="https://images.pexels.com/photos/139829/pexels-photo-139829.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-              className="object-cover w-full h-64"
-              alt=""
-            />
-            <div className="p-5 border border-t-0">
-              <p className="mb-3 text-xs font-semibold tracking-wide uppercase">
-                <a
-                  href="/"
-                  className="transition-colors duration-200 text-blue-gray-900 hover:text-deep-purple-accent-700"
-                  aria-label="Category"
-                  title="traveling"
-                >
-                  traveling
-                </a>
-                <span className="text-gray-600">— 28 Dec 2020</span>
-              </p>
-              <a
-                href="/"
-                aria-label="Category"
-                title="Film It!"
-                className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700"
-              >
-                Film It!
-              </a>
-              <p className="mb-2 text-gray-700">
-                Sed ut perspiciatis unde omnis iste natus error sit sed quia
-                consequuntur magni voluptatem doloremque.
-              </p>
-              <a
-                href="/"
-                aria-label=""
-                className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-              >
-                Learn more
-              </a>
-            </div>
-          </div>
-          <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
-            <img
-              src="https://images.pexels.com/photos/139829/pexels-photo-139829.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-              className="object-cover w-full h-64"
-              alt=""
-            />
-            <div className="p-5 border border-t-0">
-              <p className="mb-3 text-xs font-semibold tracking-wide uppercase">
-                <a
-                  href="/"
-                  className="transition-colors duration-200 text-blue-gray-900 hover:text-deep-purple-accent-700"
-                  aria-label="Category"
-                  title="traveling"
-                >
-                  traveling
-                </a>
-                <span className="text-gray-600">— 28 Dec 2020</span>
-              </p>
-              <a
-                href="/"
-                aria-label="Category"
-                title="Film It!"
-                className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700"
-              >
-                Film It!
-              </a>
-              <p className="mb-2 text-gray-700">
-                Sed ut perspiciatis unde omnis iste natus error sit sed quia
-                consequuntur magni voluptatem doloremque.
-              </p>
-              <a
-                href="/"
-                aria-label=""
-                className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-              >
-                Learn more
-              </a>
-            </div>
-          </div>
-          <div className="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
-            <img
-              src="https://images.pexels.com/photos/139829/pexels-photo-139829.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-              className="object-cover w-full h-64"
-              alt=""
-            />
-            <div className="p-5 border border-t-0">
-              <p className="mb-3 text-xs font-semibold tracking-wide uppercase">
-                <a
-                  href="/"
-                  className="transition-colors duration-200 text-blue-gray-900 hover:text-deep-purple-accent-700"
-                  aria-label="Category"
-                  title="traveling"
-                >
-                  traveling
-                </a>
-                <span className="text-gray-600">— 28 Dec 2020</span>
-              </p>
-              <a
-                href="/"
-                aria-label="Category"
-                title="Film It!"
-                className="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700"
-              >
-                Film It!
-              </a>
-              <p className="mb-2 text-gray-700">
-                Sed ut perspiciatis unde omnis iste natus error sit sed quia
-                consequuntur magni voluptatem doloremque.
-              </p>
-              <a
-                href="/"
-                aria-label=""
-                className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-              >
-                Learn more
-              </a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </div>
   );
 };
