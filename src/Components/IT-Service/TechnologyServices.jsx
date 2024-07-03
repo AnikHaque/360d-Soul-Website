@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const TechnologyServices = () => {
   return (
     <div>
@@ -5,7 +7,7 @@ const TechnologyServices = () => {
       <div className=" container mx-auto mt-20">
         <div className="">
           <div className="grid grid-cols-2 gap-5 row-gap-5 sm:grid-cols-3 lg:grid-cols-5 text-white">
-            <div className="text-center bg-primary py-10 rounded-md">
+           <Link to="/details-It-Project-Management"> <div className="text-center bg-primary py-10 rounded-md">
               <div className="flex items-center justify-center w-10 h-10 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-12 sm:h-12">
                 <svg
                   className="w-8 h-8 text-deep-purple-accent-400 sm:w-10 sm:h-10"
@@ -24,8 +26,9 @@ const TechnologyServices = () => {
               <h6 className="mb-2 text-sm font-bold leading-5 tracking-wider uppercase">
                 IT Project Management
               </h6>
-            </div>
-            <div className="text-center bg-secondary py-10 rounded-md">
+            </div></Link>
+           <Link to="/software-development">
+           <div className="text-center bg-secondary py-10 rounded-md">
               <div className="flex items-center justify-center w-10 h-10 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-12 sm:h-12">
                 <svg
                   className="w-8 h-8 text-deep-purple-accent-400 sm:w-10 sm:h-10"
@@ -45,7 +48,9 @@ const TechnologyServices = () => {
                 Software Development & Integration
               </h6>
             </div>
-            <div className="text-center bg-info py-10 rounded-md">
+           </Link>
+           <Link to="/analysis-business">
+           <div className="text-center bg-info py-10 rounded-md">
               <div className="flex items-center justify-center w-10 h-10 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-12 sm:h-12">
                 <svg
                   className="w-8 h-8 text-deep-purple-accent-400 sm:w-10 sm:h-10"
@@ -65,6 +70,7 @@ const TechnologyServices = () => {
                 Data Analysis and Business Intelligence
               </h6>
             </div>
+            </Link>
             <div className="text-center bg-success py-10 rounded-md">
               <div className="flex items-center justify-center w-10 h-10 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-12 sm:h-12">
                 <svg

@@ -12,6 +12,9 @@ import GalleryPage from "../Pages/GallaryPage/GalleryPage";
 import HROperations from "../Pages/WhatWeDo/Business-Operations/Hr-Operations/HROperations";
 import Choose from "../Components/Choose/Choose";
 import ITServices from "../Pages/WhatWeDo/Business-Operations/It-Operations/IT-Services/IT-Services";
+import ProjectManagement from "../Components/IT-Service/ProjectManagement/ProjectManagement";
+import SoftwareDevelopment from "../Components/IT-Service/SoftwareDevelopment/SoftwareDevelopment";
+import AnalysisBusiness from "../Components/IT-Service/Analysis-Business/AnalysisBusiness";
 
 const router = createBrowserRouter([
   {
@@ -62,6 +65,18 @@ const router = createBrowserRouter([
       {
         path: "/IT-Services",
         element: <ITServices></ITServices>,
+      },
+      {
+        path: "/details-It-Project-Management",
+        element: <ProjectManagement></ProjectManagement>,
+      },
+      {
+        path: "/software-development",
+        element: <SoftwareDevelopment></SoftwareDevelopment>,
+      },
+      {
+        path: "/analysis-business",
+        element:<AnalysisBusiness></AnalysisBusiness> ,
       },
     ],
   },
