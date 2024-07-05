@@ -8,90 +8,145 @@ const Navbar = () => {
       </li>
 
       <li>
-        <Link to="/about">About Us</Link>
+        <Link to="/about">Explore Us</Link>
       </li>
       <li>
-        <Link to="about">Services</Link>
+        <details>
+          <summary>Solutions</summary>
+          <ul className="bg-base-300 text-black  rounded-t-none min-w-52 z-50">
+            <li>
+              <details>
+                <summary>HR Strategy</summary>
+                <ul className="bg-base-300 text-black  rounded-t-none min-w-52">
+                  <li>
+                    <Link to="/our-events">Planning & Policy</Link>
+                  </li>
+                  <li>
+                    <Link to="/career">PMS * KPI</Link>
+                  </li>
+                  <li>
+                    <Link to="/career">Compensation Survey</Link>
+                  </li>
+                  <li>
+                    <Link to="/career">Talent Management</Link>
+                  </li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <details>
+                <summary>IT Strategy</summary>
+                <ul className="bg-base-300 text-black  rounded-t-none min-w-52">
+                  <li>
+                    <Link to="/our-events">Planning & Policy</Link>
+                  </li>
+                  <li>
+                    <Link to="/career">IT Infrastracture</Link>
+                  </li>
+                  <li>
+                    <Link to="/career">Integrated Security</Link>
+                  </li>
+                  <li>
+                    <Link to="/career">Disaster Recovery</Link>
+                  </li>
+                  <li>
+                    <Link to="/career">Business Automation</Link>
+                  </li>
+                </ul>
+              </details>
+            </li>
+          </ul>
+        </details>
+      </li>
+      <li>
+        <details>
+          <summary>Services</summary>
+          <ul className="bg-base-300 text-black  rounded-t-none min-w-52 z-50">
+            <li>
+              <details>
+                <summary>HR Services</summary>
+                <ul className="bg-base-300 text-black  rounded-t-none min-w-52">
+                  <li>
+                    <Link to="/our-events">HRIS</Link>
+                  </li>
+                  <li>
+                    <Link to="/career">Talent Hunt</Link>
+                  </li>
+                  <li>
+                    <Link to="/career">Training & Development</Link>
+                  </li>
+                  <li>
+                    <Link to="/career">Compliance & Regulatory</Link>
+                  </li>
+                  <li>
+                    <Link to="/career">HR Audit</Link>
+                  </li>
+                  <li>
+                    <Link to="/career">Third Party Service</Link>
+                  </li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <details>
+                <summary>IT Services</summary>
+                <ul className="bg-base-300 text-black  rounded-t-none min-w-52">
+                  <li>
+                    <Link to="/our-events">Cloud Services</Link>
+                  </li>
+                  <li>
+                    <Link to="/career">Cyber Security</Link>
+                  </li>
+                  <li>
+                    <Link to="/career">Project Management</Link>
+                  </li>
+                  <li>
+                    <Link to="/career">Data Analytics</Link>
+                  </li>
+                  <li>
+                    <Link to="/career">Technology Training</Link>
+                  </li>
+                  <li>
+                    <Link to="/career">Vendor Management</Link>
+                  </li>
+                  <li>
+                    <Link to="/career">Vulnerability Assessment</Link>
+                  </li>
+                  <li>
+                    <Link to="/career">Pnetration Testing</Link>
+                  </li>
+                  <li>
+                    <Link to="/career">Managed IT Services</Link>
+                  </li>
+                  <li>
+                    <Link to="/career">Web Services</Link>
+                  </li>
+                  <li>
+                    <Link to="/career">Brand & Marketing</Link>
+                  </li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <Link to="/blog">Offshore Management & Consultation</Link>
+            </li>
+            <li>
+              <Link to="/blog">Career Counselling</Link>
+            </li>
+            <li>
+              <Link to="/blog">Health Tourism</Link>
+            </li>
+          </ul>
+        </details>
       </li>
       <li>
         <Link to="/blog">Blogs</Link>
       </li>
       <li>
-        <Link to="team">Our Team</Link>
+        <Link to="/career">Career</Link>
       </li>
       <li>
         <Link to="/contact-us">Contact</Link>
-      </li>
-      <li>
-        <details>
-          <summary>What We Do</summary>
-          <ul className="bg-base-300 text-black  rounded-t-none min-w-52 z-50">
-            <li>
-              <details>
-                <summary>Business Strategy</summary>
-                <ul className="bg-base-300 text-black  rounded-t-none min-w-52">
-                  <li>
-                    <Link to="/our-events">HR Strategy & Planning</Link>
-                  </li>
-                  <li>
-                    <Link to="/career">IT Strategy & Planning</Link>
-                  </li>
-                  <li>
-                    <Link to="/career">Marketing Strategy</Link>
-                  </li>
-                </ul>
-              </details>
-            </li>
-            <li>
-              <details>
-                <summary>Business Operations</summary>
-                <ul className="bg-base-300 text-black  rounded-t-none min-w-52">
-                  <li>
-                    <Link to="/hr-operations">HR Operations</Link>
-                  </li>
-                  <li>
-                    <details>
-                      <summary>IT Operations</summary>
-                      <ul className="bg-base-300 text-black  rounded-t-none min-w-52">
-                        <li>
-                          <Link to="/IT-Services">IT Services</Link>
-                        </li>
-                        <li>
-                          <Link to="/career">IT Solutions</Link>
-                        </li>
-                      </ul>
-                    </details>
-                  </li>
-                </ul>
-              </details>
-            </li>
-          </ul>
-        </details>
-      </li>
-      <li>
-        <details>
-          <summary>Company</summary>
-          <ul className="bg-base-300 text-black  rounded-t-none min-w-52 z-50">
-            <li>
-              <Link to="/why-choose-us">Why Choose Us</Link>
-            </li>
-            <li>
-              <Link to="/our-events">Our Events</Link>
-            </li>
-            <li>
-              <Link to="/career">Career</Link>
-            </li>
-            <li>
-              <Link to="/gallery">Our Gallery</Link>
-            </li>
-            <li>
-              <Link to="/events">Our News</Link>
-            </li>
-            <li>
-              <Link to="/our-events">Analyst Reports</Link>
-            </li>
-          </ul>
-        </details>
       </li>
     </>
   );

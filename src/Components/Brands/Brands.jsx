@@ -1,86 +1,144 @@
+import "./Brands.css";
 const Brands = () => {
   return (
-    <div>
-      <h1 className="font-bold text-4xl text-center mt-20 mb-20">
-        Learn why more than 400,000 customers trust Oracle
-      </h1>
-      <div className="grid grid-cols-2 mx-4 lg:grid-cols-10 container lg:mx-auto justify-center items-center gap-8">
-        <img
-          className="w-32"
-          src="https://www.oracle.com/node/oce/storyhub/prod/api/v1.1/assets/CONTF6F68E4BAF434C9EBDB8E53AE9E6ECC7/native/customerlogo-uber-logo-clr.svg"
-        ></img>
-        <img
-          className="w-32"
-          src="https://www.oracle.com/node/oce/storyhub/prod/api/v1.1/assets/CONT5D4E1E373E604EDB892974AFBB8E4681/native/customerlogo-aon-clr.png"
-        ></img>
-        <img
-          className="w-32"
-          src="https://www.oracle.com/node/oce/storyhub/prod/api/v1.1/assets/CONTC9A865FE08534EABABE730E869BD2C0A/native/customerlogo-australian-natl-univ-clr.svg"
-        ></img>
-        <img
-          className="w-32"
-          src="https://www.oracle.com/node/oce/storyhub/prod/api/v1.1/assets/CONTBE7E9D55EEDB4E15BB8B4A61C6226480/native/customerlogo-mgm-clr.svg"
-        ></img>
-        <img
-          className="w-32"
-          src="https://www.oracle.com/node/oce/storyhub/prod/api/v1.1/assets/CONT428894ABAE35477FB9E4F8942745CD64/native/customerlogo-amc-theatres-clr.svg"
-        ></img>
-        <img
-          className="w-32"
-          src="https://www.oracle.com/node/oce/storyhub/prod/api/v1.1/assets/CONT22E837EF34DC4028940BFC001E2FC99C/native/customerlogo-grant-thornton-clr.svg"
-        ></img>
-        <img
-          className="w-32"
-          src="https://www.oracle.com/node/oce/storyhub/prod/api/v1.1/assets/CONTCDB72866C5A84EF5AF16B257A0E89076/native/"
-        ></img>
-        <img
-          className="w-32"
-          src="https://www.oracle.com/node/oce/storyhub/prod/api/v1.1/assets/CONTA61855BD2FC44B60909BB14F5F7EBF56/native/"
-        ></img>
-        <img
-          className="w-32"
-          src="https://www.oracle.com/node/oce/storyhub/prod/api/v1.1/assets/CONT585C6CA681834527A7F44932814C3234/native/"
-        ></img>
-        <img
-          className="w-32"
-          src="https://www.oracle.com/node/oce/storyhub/prod/api/v1.1/assets/CONTD2AE8332719C4816B9156A534CC5421F/native/"
-        ></img>
-        <img
-          className="w-32"
-          src="https://www.oracle.com/node/oce/storyhub/prod/api/v1.1/assets/CONT116CE97786C742F281847D0AE70E0E5D/native/"
-        ></img>
-        <img
-          className="w-32"
-          src="https://www.oracle.com/node/oce/storyhub/prod/api/v1.1/assets/CONT9051B588DF0F4D2D843BF696E77EFF16/native/"
-        ></img>
-        <img
-          className="w-32"
-          src="https://www.oracle.com/node/oce/storyhub/prod/api/v1.1/assets/CONT1E4FCCD25C104BBEA84447DAAC18EDBE/native/"
-        ></img>
-        <img
-          className="w-32"
-          src="https://www.oracle.com/node/oce/storyhub/prod/api/v1.1/assets/CONTD38102B4D41F42E38884DCADEC8E73C2/native/"
-        ></img>
-        <img
-          className="w-32"
-          src="https://www.oracle.com/node/oce/storyhub/prod/api/v1.1/assets/CONT3CCB9C481E0540A4AB08656D003D410C/native/"
-        ></img>
-        <img
-          className="w-32"
-          src="https://www.oracle.com/node/oce/storyhub/prod/api/v1.1/assets/CONTA84D76A908FA42349FFE52044F461210/native/"
-        ></img>
-        <img
-          className="w-32"
-          src="https://www.oracle.com/node/oce/storyhub/prod/api/v1.1/assets/CONT9A07A82B74474EB28597FB3C6BB1F600/native/"
-        ></img>
-        <img
-          className="w-32"
-          src="https://www.oracle.com/node/oce/storyhub/prod/api/v1.1/assets/CONTBDB813F2C36A4B83970BA48B60A1439C/native/"
-        ></img>
-        <img
-          className="w-32"
-          src="https://www.oracle.com/node/oce/storyhub/prod/api/v1.1/assets/CONT8A00ECAA2E9541A097575C211FAA3C64/native/"
-        ></img>
+    <div className="my-20 lg:container lg:mx-auto">
+      <h3 className="text-center mb-10 text-4xl font-semibold text-[#185C5D]">
+        Our Beloved Brands
+      </h3>
+      <div className="carousel-wrapper mb-5">
+        <div className="carousel-container carousel-container-1">
+          <div className="carousel-item">
+            <img
+              className="saturate-0 max-w-80 saturate-100"
+              src="https://www.goinnovior.com/wp-content/uploads/2023/02/brand-45.png"
+              alt="Brand 18"
+            />
+          </div>
+          <div className="carousel-item">
+            <img
+              className="saturate-0 max-w-80 saturate-100"
+              src="https://www.goinnovior.com/wp-content/uploads/2023/05/CISCO.png"
+              alt="Brand 18"
+            />
+          </div>
+          <div className="carousel-item">
+            <img
+              className="saturate-0 max-w-80 saturate-100"
+              src="https://www.goinnovior.com/wp-content/uploads/2023/02/brand-42.png"
+              alt="Brand 18"
+            />
+          </div>
+          <div className="carousel-item">
+            <img
+              className="saturate-0 max-w-80 saturate-100"
+              src="https://www.goinnovior.com/wp-content/uploads/2023/05/FORTINET.png"
+              alt="Brand 18"
+            />
+          </div>
+          <div className="carousel-item">
+            <img
+              className="saturate-0 max-w-80 saturate-100"
+              src="https://www.goinnovior.com/wp-content/uploads/2023/02/brand-46.png"
+              alt="Brand 18"
+            />
+          </div>
+          <div className="carousel-item">
+            <img
+              className="saturate-0 max-w-80 saturate-100"
+              src="https://www.goinnovior.com/wp-content/uploads/2023/05/Oracle-logo.png"
+              alt="Brand 18"
+            />
+          </div>
+
+          <div className="carousel-item">
+            <img
+              className="saturate-0 max-w-80 saturate-100"
+              src="https://www.goinnovior.com/wp-content/uploads/2023/05/SHOPOS.png"
+              alt="Brand 18"
+            />
+          </div>
+          <div className="carousel-item">
+            <img
+              className="saturate-0 max-w-80 saturate-100"
+              src="https://www.goinnovior.com/wp-content/uploads/2023/05/aws.png"
+              alt="Brand 18"
+            />
+          </div>
+          <div className="carousel-item">
+            <img
+              className="saturate-0 max-w-80 hover:saturate-100"
+              src="https://www.goinnovior.com/wp-content/uploads/2023/02/brand-45.png"
+              alt="Brand 18"
+            />
+          </div>
+          <div className="carousel-item">
+            <img
+              className="saturate-0 max-w-80 hover:saturate-100"
+              src="https://www.goinnovior.com/wp-content/uploads/2023/02/brand-45.png"
+              alt="Brand 18"
+            />
+          </div>
+          <div className="carousel-item">
+            <img
+              className="saturate-0 max-w-80 hover:saturate-100"
+              src="https://www.goinnovior.com/wp-content/uploads/2023/02/brand-45.png"
+              alt="Brand 18"
+            />
+          </div>
+        </div>
+      </div>
+      <div className="carousel-wrapper">
+        <div className="carousel-container carousel-container-2 flex flex-row-reverse">
+          <div className="carousel-item">
+            <img
+              className="saturate-0 max-w-80 saturate-100"
+              src="https://www.goinnovior.com/wp-content/uploads/2023/05/SHOPOS.png"
+              alt="Brand 18"
+            />
+          </div>
+          <div className="carousel-item">
+            <img
+              className="saturate-0 max-w-80 saturate-100"
+              src="https://www.goinnovior.com/wp-content/uploads/2023/05/aws.png"
+              alt="Brand 18"
+            />
+          </div>
+          <div className="carousel-item">
+            <img
+              className="saturate-0 max-w-80 saturate-100"
+              src="https://www.goinnovior.com/wp-content/uploads/2023/05/hp.png"
+              alt="Brand 18"
+            />
+          </div>
+          <div className="carousel-item">
+            <img
+              className="saturate-0 max-w-80 saturate-100"
+              src="https://www.goinnovior.com/wp-content/uploads/2023/02/brand-41.png"
+              alt="Brand 18"
+            />
+          </div>
+          <div className="carousel-item">
+            <img
+              className="saturate-0 max-w-80 saturate-100"
+              src="https://www.goinnovior.com/wp-content/uploads/2023/05/vmware.png"
+              alt="Brand 18"
+            />
+          </div>
+          <div className="carousel-item">
+            <img
+              className="saturate-0 max-w-80 saturate-100"
+              src="https://www.goinnovior.com/wp-content/uploads/2023/02/brand-45.png"
+              alt="Brand 18"
+            />
+          </div>
+          <div className="carousel-item">
+            <img
+              className="saturate-0 max-w-80 saturate-100"
+              src="https://www.goinnovior.com/wp-content/uploads/2023/05/CISCO.png"
+              alt="Brand 18"
+            />
+          </div>
+        </div>
       </div>
     </div>
   );

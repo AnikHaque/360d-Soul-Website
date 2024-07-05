@@ -54,36 +54,100 @@ const Banner = () => {
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
           <div className="flex flex-col bg-white border rounded shadow-sm md:justify-center lg:flex-row">
             <div className="flex flex-col justify-between p-5 border-b sm:p-10 lg:border-b-0 lg:border-r lg:w-1/2">
-              <img src="https://w0.peakpx.com/wallpaper/868/430/HD-wallpaper-social-networks-blue-background-social-networks-icons-blue-light-globe-global-networks-social-networks-blue-background-social-networks-concepts.jpg"></img>
+              <img src="https://media.licdn.com/dms/image/C5612AQGiYSACmS7pxA/article-cover_image-shrink_600_2000/0/1520114610645?e=2147483647&v=beta&t=aO-Ma5CQPFDif5PH4arynKgjmqXb9Xh89pf4hK3OwEc"></img>
             </div>
             <div className="flex flex-col justify-between p-5 sm:p-10 lg:w-1/2">
-              <div>
-                <p className="mb-2 text-xs font-semibold tracking-wide uppercase">
-                  New History
+              <div className="">
+                <p className="mb-2 text-4xl text-blue-400 font-bold tracking-wide uppercase">
+                  360d Soul Ltd
                 </p>
-                <h5 className="max-w-md mb-6 text-xl lg:text-5xl font-extrabold leading-none sm:text-4xl uppercase">
-                  Welcome To{" "}
-                  <span className="text-blue-400">360d Soul Limited</span>
+                <h5 className="max-w-md mb-6 text-xl lg:text-xl font-medium leading-none sm:text-4xl uppercase">
+                  a Soul for Organizational Solution & IT Platform
                 </h5>
                 <p className="mb-6 text-base text-gray-700 md:text-lg sm:mb-8">
                   Disrupt inspire and think tank, social entrepreneur but
-                  preliminary thinking think tank compelling.
+                  preliminary thinking think tank compelling.Disrupt inspire and
+                  think tank, social entrepreneur but preliminary thinking think
+                  tank compelling.
                 </p>
               </div>
-              <div className="flex items-center">
-                <button
-                  type="submit"
-                  className="inline-flex items-center bg-blue-400 justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-                >
-                  Get started
-                </button>
-                <a
-                  href="/"
-                  aria-label=""
-                  className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-                >
-                  Learn more
-                </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="banner">
+        <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+          <div className="flex flex-col bg-white border rounded shadow-sm md:justify-center lg:flex-row">
+            <div className="flex flex-col justify-between p-5 border-b sm:p-10 lg:border-b-0 lg:border-r lg:w-1/2">
+              <img
+                src="https://c1.wallpaperflare.com/preview/397/809/215/organization-organization-chart-building-business.jpg"
+                className="max-h-72"
+              ></img>
+            </div>
+            <div className="flex flex-col justify-between p-5 sm:p-10 lg:w-1/2">
+              <div className="">
+                <p className="mb-2 text-4xl text-blue-400 font-bold tracking-wide uppercase">
+                  360d Soul Ltd
+                </p>
+                <h5 className="max-w-md mb-6 text-xl lg:text-xl font-medium leading-none sm:text-4xl uppercase">
+                  a Soul for Organizational Solution & IT Platform
+                </h5>
+                <p className="mb-6 text-base text-gray-700 md:text-lg sm:mb-8">
+                  Disrupt inspire and think tank, social entrepreneur but
+                  preliminary thinking think tank compelling.Disrupt inspire and
+                  think tank, social entrepreneur but preliminary thinking think
+                  tank compelling.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="banner">
+        <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+          <div className="flex flex-col bg-white border rounded shadow-sm md:justify-center lg:flex-row">
+            <div className="flex flex-col justify-between p-5 border-b sm:p-10 lg:border-b-0 lg:border-r lg:w-1/2">
+              <img src="https://media.licdn.com/dms/image/C5612AQGiYSACmS7pxA/article-cover_image-shrink_600_2000/0/1520114610645?e=2147483647&v=beta&t=aO-Ma5CQPFDif5PH4arynKgjmqXb9Xh89pf4hK3OwEc"></img>
+            </div>
+            <div className="flex flex-col justify-between p-5 sm:p-10 lg:w-1/2">
+              <div className="">
+                <p className="mb-2 text-4xl text-blue-400 font-bold tracking-wide uppercase">
+                  360d Soul Ltd
+                </p>
+                <h5 className="max-w-md mb-6 text-xl lg:text-xl font-medium leading-none sm:text-4xl uppercase">
+                  a Soul for Organizational Solution & IT Platform
+                </h5>
+                <p className="mb-6 text-base text-gray-700 md:text-lg sm:mb-8">
+                  Disrupt inspire and think tank, social entrepreneur but
+                  preliminary thinking think tank compelling.Disrupt inspire and
+                  think tank, social entrepreneur but preliminary thinking think
+                  tank compelling.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="banner">
+        <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+          <div className="flex flex-col bg-white border rounded shadow-sm md:justify-center lg:flex-row">
+            <div className="flex flex-col justify-between p-5 border-b sm:p-10 lg:border-b-0 lg:border-r lg:w-1/2">
+              <img src="https://media.licdn.com/dms/image/C5612AQGiYSACmS7pxA/article-cover_image-shrink_600_2000/0/1520114610645?e=2147483647&v=beta&t=aO-Ma5CQPFDif5PH4arynKgjmqXb9Xh89pf4hK3OwEc"></img>
+            </div>
+            <div className="flex flex-col justify-between p-5 sm:p-10 lg:w-1/2">
+              <div className="">
+                <p className="mb-2 text-4xl text-blue-400 font-bold tracking-wide uppercase">
+                  360d Soul Ltd
+                </p>
+                <h5 className="max-w-md mb-6 text-xl lg:text-xl font-medium leading-none sm:text-4xl uppercase">
+                  a Soul for Organizational Solution & IT Platform
+                </h5>
+                <p className="mb-6 text-base text-gray-700 md:text-lg sm:mb-8">
+                  Disrupt inspire and think tank, social entrepreneur but
+                  preliminary thinking think tank compelling.Disrupt inspire and
+                  think tank, social entrepreneur but preliminary thinking think
+                  tank compelling.
+                </p>
               </div>
             </div>
           </div>
