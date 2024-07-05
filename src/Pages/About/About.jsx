@@ -1,6 +1,5 @@
 import AboutBanner from "../../Components/About/AboutBanner";
 import AboutPlatform from "../../Components/About/AboutPlatform";
-import AboutUs from "../../Components/About/AboutUs";
 import AboutWork from "../../Components/About/AboutWork";
 import VisionMissionValues from "../../Components/About/VisionMissionValues";
 

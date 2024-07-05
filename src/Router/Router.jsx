@@ -17,6 +17,8 @@ import SoftwareDevelopment from "../Components/IT-Service/SoftwareDevelopment/So
 import AnalysisBusiness from "../Components/IT-Service/Analysis-Business/AnalysisBusiness";
 import ITSecurityRiskManagement from "../Components/IT-Service/IT SECURITY & RISK MANAGEMENT/ITSecurityRiskManagement";
 import ITGovernance from "../Components/IT-Service/IT GOVERNANCE & COMPLIANCE/ITGovernance";
+import ItTRaining from "../Components/IT-Service/IT TRAINING & CHANGE MANAGEMENT/ItTRaining";
+import Network from "../Components/IT-Service/NetworkOperations/Network";
 
 const router = createBrowserRouter([
   {
@@ -87,6 +89,14 @@ const router = createBrowserRouter([
       {
         path: "/IT-Governance",
         element: <ITGovernance></ITGovernance>,
+      },
+      {
+        path: "/IT-Training",
+        element: <ItTRaining></ItTRaining>,
+      },
+      {
+        path: "/network",
+        element: <Network></Network>,
       },
     ],
   },

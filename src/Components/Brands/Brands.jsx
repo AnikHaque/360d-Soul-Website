@@ -4,7 +4,7 @@ const Brands = () => {
       <h1 className="font-bold text-4xl text-center mt-20 mb-20">
         Learn why more than 400,000 customers trust Oracle
       </h1>
-      <div className="grid grid-cols-1 lg:grid-cols-10 container mx-auto justify-center items-center gap-8">
+      <div className="grid grid-cols-2 mx-4 lg:grid-cols-10 container lg:mx-auto justify-center items-center gap-8">
         <img
           className="w-32"
           src="https://www.oracle.com/node/oce/storyhub/prod/api/v1.1/assets/CONTF6F68E4BAF434C9EBDB8E53AE9E6ECC7/native/customerlogo-uber-logo-clr.svg"

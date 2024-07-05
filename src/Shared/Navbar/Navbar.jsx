@@ -25,7 +25,7 @@ const Navbar = () => {
       <li>
         <details>
           <summary>What We Do</summary>
-          <ul className="bg-base-300 text-black  rounded-t-none min-w-52">
+          <ul className="bg-base-300 text-black  rounded-t-none min-w-52 z-50">
             <li>
               <details>
                 <summary>Business Strategy</summary>
@@ -71,7 +71,7 @@ const Navbar = () => {
       <li>
         <details>
           <summary>Company</summary>
-          <ul className="bg-base-300 text-black  rounded-t-none min-w-52">
+          <ul className="bg-base-300 text-black  rounded-t-none min-w-52 z-50">
             <li>
               <Link to="/why-choose-us">Why Choose Us</Link>
             </li>

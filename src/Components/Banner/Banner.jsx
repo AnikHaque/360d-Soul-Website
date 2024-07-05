@@ -50,37 +50,40 @@ const Banner = () => {
       swipeable
     >
       {/* Add your actual content here */}
-      <div className="banner-bg">
-        <div className="grid grid-cols-1 lg:grid-cols-1 ">
-          <div className="card lg:card-side shadow-lg border-b border-blue-300 lg:max-w-6xl lg:container lg:mx-auto justify-center items-center lg:mt-20 bg-white opacity-80">
-            <div>
-              <figure>
-                <img
-                  src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.jpg"
-                  className="opacity-80 p-5"
-                  alt="Album"
-                />
-              </figure>
+      <div className="banner">
+        <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+          <div className="flex flex-col bg-white border rounded shadow-sm md:justify-center lg:flex-row">
+            <div className="flex flex-col justify-between p-5 border-b sm:p-10 lg:border-b-0 lg:border-r lg:w-1/2">
+              <img src="https://w0.peakpx.com/wallpaper/868/430/HD-wallpaper-social-networks-blue-background-social-networks-icons-blue-light-globe-global-networks-social-networks-blue-background-social-networks-concepts.jpg"></img>
             </div>
-
-            <div>
-              <div className="card-body">
-                <h2 className="text-black font-extrabold text-6xl">
-                  Welcome to{" "}
-                  <span className="text-blue-400">360D SOUL LTD</span>
-                </h2>
-                <p className="font-bold text-2xl">
-                  Oracle Cloud Analytics crunches reams of data to inform two
-                  Premier League awards
+            <div className="flex flex-col justify-between p-5 sm:p-10 lg:w-1/2">
+              <div>
+                <p className="mb-2 text-xs font-semibold tracking-wide uppercase">
+                  New History
+                </p>
+                <h5 className="max-w-md mb-6 text-xl lg:text-5xl font-extrabold leading-none sm:text-4xl uppercase">
+                  Welcome To{" "}
+                  <span className="text-blue-400">360d Soul Limited</span>
+                </h5>
+                <p className="mb-6 text-base text-gray-700 md:text-lg sm:mb-8">
+                  Disrupt inspire and think tank, social entrepreneur but
+                  preliminary thinking think tank compelling.
                 </p>
               </div>
-              <div className="ml-8">
-                <button className=" btn bg-blue-400 text-white mr-5">
-                  Read More
+              <div className="flex items-center">
+                <button
+                  type="submit"
+                  className="inline-flex items-center bg-blue-400 justify-center h-12 px-6 mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+                >
+                  Get started
                 </button>
-                <button className="btn btn-outline btn-info text-white">
-                  Explore Our Cloud
-                </button>
+                <a
+                  href="/"
+                  aria-label=""
+                  className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
+                >
+                  Learn more
+                </a>
               </div>
             </div>
           </div>

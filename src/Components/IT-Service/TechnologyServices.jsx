@@ -118,46 +118,50 @@ const TechnologyServices = () => {
                 </h6>
               </div>
             </Link>
-            <div className="text-center bg-primary py-10 rounded-md">
-              <div className="flex items-center justify-center w-10 h-10 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-12 sm:h-12">
-                <svg
-                  className="w-8 h-8 text-deep-purple-accent-400 sm:w-10 sm:h-10"
-                  stroke="currentColor"
-                  viewBox="0 0 52 52"
-                >
-                  <polygon
-                    strokeWidth="3"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    fill="none"
-                    points="29 13 14 29 25 29 23 39 38 23 27 23"
-                  />
-                </svg>
+            <Link to="/IT-Training">
+              <div className="text-center bg-primary py-10 rounded-md">
+                <div className="flex items-center justify-center w-10 h-10 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-12 sm:h-12">
+                  <svg
+                    className="w-8 h-8 text-deep-purple-accent-400 sm:w-10 sm:h-10"
+                    stroke="currentColor"
+                    viewBox="0 0 52 52"
+                  >
+                    <polygon
+                      strokeWidth="3"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      fill="none"
+                      points="29 13 14 29 25 29 23 39 38 23 27 23"
+                    />
+                  </svg>
+                </div>
+                <h6 className="mb-2 text-sm font-bold leading-5 tracking-wider uppercase">
+                  IT Training & Change Management
+                </h6>
               </div>
-              <h6 className="mb-2 text-sm font-bold leading-5 tracking-wider uppercase">
-                IT Training & Change Management
-              </h6>
-            </div>
-            <div className="text-center bg-primary py-10 rounded-md">
-              <div className="flex items-center justify-center w-10 h-10 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-12 sm:h-12">
-                <svg
-                  className="w-8 h-8 text-deep-purple-accent-400 sm:w-10 sm:h-10"
-                  stroke="currentColor"
-                  viewBox="0 0 52 52"
-                >
-                  <polygon
-                    strokeWidth="3"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    fill="none"
-                    points="29 13 14 29 25 29 23 39 38 23 27 23"
-                  />
-                </svg>
+            </Link>
+            <Link to="/network">
+              <div className="text-center bg-primary py-10 rounded-md">
+                <div className="flex items-center justify-center w-10 h-10 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-12 sm:h-12">
+                  <svg
+                    className="w-8 h-8 text-deep-purple-accent-400 sm:w-10 sm:h-10"
+                    stroke="currentColor"
+                    viewBox="0 0 52 52"
+                  >
+                    <polygon
+                      strokeWidth="3"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      fill="none"
+                      points="29 13 14 29 25 29 23 39 38 23 27 23"
+                    />
+                  </svg>
+                </div>
+                <h6 className="mb-2 text-sm font-bold leading-5 tracking-wider uppercase">
+                  Network Operations
+                </h6>
               </div>
-              <h6 className="mb-2 text-sm font-bold leading-5 tracking-wider uppercase">
-                Network Operations
-              </h6>
-            </div>
+            </Link>
             <div className="text-center bg-primary py-10 rounded-md">
               <div className="flex items-center justify-center w-10 h-10 mx-auto mb-4 rounded-full bg-indigo-50 sm:w-12 sm:h-12">
                 <svg
