@@ -29,16 +29,6 @@ const AboutUs = () => {
                 src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
                 alt=""
               />
-              <img
-                className="object-cover w-full h-48 rounded shadow-lg"
-                src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-                alt=""
-              />
-              <img
-                className="object-cover w-full h-48 rounded shadow-lg"
-                src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-                alt=""
-              />
             </div>
 
             <div className="flex flex-col justify-center">
@@ -62,14 +52,10 @@ const AboutUs = () => {
                 </div>
                 <div>
                   <h6 className="mb-2 font-normal text-xl">Our Vision</h6>
-                  <p className=" text-gray-900">
+                  <p className=" text-gray-900 text-justify">
                     Our vision at 360D Soul Ltd. is to be the premier HRIS & OD
                     (Organizational Development) platform in Bangladesh, setting
-                    the standard for excellence in our industry worldwide. We
-                    aspire to empower organizations with cutting-edge solutions
-                    that optimize their human resources and foster
-                    organizational development, driving success and innovation
-                    in the global marketplace
+                    the standard for excellence in our industry worldwide.
                   </p>
                   <hr className="w-full my-6 border-gray-300" />
                 </div>
@@ -95,14 +81,11 @@ const AboutUs = () => {
                 </div>
                 <div>
                   <h6 className="mb-2 font-normal text-xl">Our Mission</h6>
-                  <p className=" text-gray-900">
+                  <p className=" text-gray-900 text-justify">
                     At 360D Soul Ltd., our mission is to provide user-friendly,
                     quality resourcing solutions that are trusted, dynamic, and
                     rooted in local expertise, while simultaneously fostering a
-                    global footprint. We are committed to long-term
-                    sustainability, ensuring that our innovative platforms and
-                    services empower businesses to thrive in today's
-                    ever-evolving landscape
+                    global footprint.
                   </p>
                   <hr className="w-full my-6 border-gray-300" />
                 </div>
@@ -128,15 +111,11 @@ const AboutUs = () => {
                 </div>
                 <div>
                   <h6 className="mb-2 font-normal text-xl">Our Values</h6>
-                  <p className=" text-gray-900">
+                  <p className=" text-gray-900 text-justify">
                     At 360D Soul Ltd., we are dedicated to being the solution
                     for all types of businesses, offering cost-effective
                     services that help both established enterprises and budding
-                    startups alike. Our commitment to ethical and social
-                    business practices ensures that our solutions not only drive
-                    profitability but also contribute positively to society,
-                    empowering potential companies to grow sustainably while
-                    making a meaningful impact on the world
+                    startups alike.
                   </p>
                   <hr className="w-full my-6 border-gray-300" />
                 </div>
