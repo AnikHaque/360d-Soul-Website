@@ -1,145 +1,34 @@
 import "./Brands.css";
 const Brands = () => {
   return (
-    <div className="my-20 lg:container lg:mx-auto">
-      <h3 className="text-center mb-10 text-4xl font-semibold text-[#185C5D]">
-        Our Beloved Brands
-      </h3>
-      <div className="carousel-wrapper mb-5">
-        <div className="carousel-container carousel-container-1">
-          <div className="carousel-item">
-            <img
-              className="saturate-0 max-w-80 saturate-100"
-              src="https://www.goinnovior.com/wp-content/uploads/2023/02/brand-45.png"
-              alt="Brand 18"
-            />
+    <div>
+      <section className="pt-10 pb-8 overflow-hidden bg-gray-100 sm:pt-16 lg:pt-24">
+        <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+          <div className="max-w-2xl mx-auto text-center">
+            <h2 className="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
+              Connect with all apps
+            </h2>
+            <p className="max-w-xl mx-auto mt-4 text-base leading-relaxed text-gray-600">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis.
+            </p>
+            <a
+              href="#"
+              title=""
+              className="inline-flex items-center justify-center px-8 py-4 text-base font-semibold text-gray-900 transition-all duration-200 border-2 border-gray-200 rounded-md mt-9 hover:bg-gray-900 hover:text-white hover:border-gray-900 focus:bg-gray-900 focus:text-white focus:border-gray-900"
+              role="button"
+            >
+              Check all apps
+            </a>
           </div>
-          <div className="carousel-item">
-            <img
-              className="saturate-0 max-w-80 saturate-100"
-              src="https://www.goinnovior.com/wp-content/uploads/2023/05/CISCO.png"
-              alt="Brand 18"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              className="saturate-0 max-w-80 saturate-100"
-              src="https://www.goinnovior.com/wp-content/uploads/2023/02/brand-42.png"
-              alt="Brand 18"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              className="saturate-0 max-w-80 saturate-100"
-              src="https://www.goinnovior.com/wp-content/uploads/2023/05/FORTINET.png"
-              alt="Brand 18"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              className="saturate-0 max-w-80 saturate-100"
-              src="https://www.goinnovior.com/wp-content/uploads/2023/02/brand-46.png"
-              alt="Brand 18"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              className="saturate-0 max-w-80 saturate-100"
-              src="https://www.goinnovior.com/wp-content/uploads/2023/05/Oracle-logo.png"
-              alt="Brand 18"
-            />
-          </div>
+        </div>
 
-          <div className="carousel-item">
-            <img
-              className="saturate-0 max-w-80 saturate-100"
-              src="https://www.goinnovior.com/wp-content/uploads/2023/05/SHOPOS.png"
-              alt="Brand 18"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              className="saturate-0 max-w-80 saturate-100"
-              src="https://www.goinnovior.com/wp-content/uploads/2023/05/aws.png"
-              alt="Brand 18"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              className="saturate-0 max-w-80 hover:saturate-100"
-              src="https://www.goinnovior.com/wp-content/uploads/2023/02/brand-45.png"
-              alt="Brand 18"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              className="saturate-0 max-w-80 hover:saturate-100"
-              src="https://www.goinnovior.com/wp-content/uploads/2023/02/brand-45.png"
-              alt="Brand 18"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              className="saturate-0 max-w-80 hover:saturate-100"
-              src="https://www.goinnovior.com/wp-content/uploads/2023/02/brand-45.png"
-              alt="Brand 18"
-            />
-          </div>
-        </div>
-      </div>
-      <div className="carousel-wrapper">
-        <div className="carousel-container carousel-container-2 flex flex-row-reverse">
-          <div className="carousel-item">
-            <img
-              className="saturate-0 max-w-80 saturate-100"
-              src="https://www.goinnovior.com/wp-content/uploads/2023/05/SHOPOS.png"
-              alt="Brand 18"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              className="saturate-0 max-w-80 saturate-100"
-              src="https://www.goinnovior.com/wp-content/uploads/2023/05/aws.png"
-              alt="Brand 18"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              className="saturate-0 max-w-80 saturate-100"
-              src="https://www.goinnovior.com/wp-content/uploads/2023/05/hp.png"
-              alt="Brand 18"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              className="saturate-0 max-w-80 saturate-100"
-              src="https://www.goinnovior.com/wp-content/uploads/2023/02/brand-41.png"
-              alt="Brand 18"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              className="saturate-0 max-w-80 saturate-100"
-              src="https://www.goinnovior.com/wp-content/uploads/2023/05/vmware.png"
-              alt="Brand 18"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              className="saturate-0 max-w-80 saturate-100"
-              src="https://www.goinnovior.com/wp-content/uploads/2023/02/brand-45.png"
-              alt="Brand 18"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              className="saturate-0 max-w-80 saturate-100"
-              src="https://www.goinnovior.com/wp-content/uploads/2023/05/CISCO.png"
-              alt="Brand 18"
-            />
-          </div>
-        </div>
-      </div>
+        <img
+          className="w-full min-w-full mx-auto mt-12 scale-150 max-w-7xl lg:min-w-0 lg:mt-0 lg:scale-100"
+          src="https://cdn.rareblocks.xyz/collection/celebration/images/integration/1/services-icons.png"
+          alt=""
+        />
+      </section>
     </div>
   );
 };

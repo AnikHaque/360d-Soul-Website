@@ -28,7 +28,17 @@ const Navbar = () => {
                     <Link to="/career">Compensation Survey</Link>
                   </li>
                   <li>
-                    <Link to="/career">Talent Management</Link>
+                    <details>
+                      <summary>Talent Management</summary>
+                      <ul className="bg-base-300 text-black  rounded-t-none min-w-52">
+                        <li>
+                          <Link to="/our-events">Talent Development</Link>
+                        </li>
+                        <li>
+                          <Link to="/career">Talent Optimization</Link>
+                        </li>
+                      </ul>
+                    </details>
                   </li>
                 </ul>
               </details>
@@ -70,7 +80,29 @@ const Navbar = () => {
                     <Link to="/our-events">HRIS</Link>
                   </li>
                   <li>
-                    <Link to="/career">Talent Hunt</Link>
+                    <details>
+                      <summary>HR Services</summary>
+                      <ul className="bg-base-300 text-black  rounded-t-none min-w-52">
+                        <li>
+                          <Link to="/our-events">HRIS</Link>
+                        </li>
+                        <li>
+                          <Link to="/career">Talent Hunt</Link>
+                        </li>
+                        <li>
+                          <Link to="/career">Training & Development</Link>
+                        </li>
+                        <li>
+                          <Link to="/career">Compliance & Regulatory</Link>
+                        </li>
+                        <li>
+                          <Link to="/career">HR Audit</Link>
+                        </li>
+                        <li>
+                          <Link to="/career">Third Party Service</Link>
+                        </li>
+                      </ul>
+                    </details>
                   </li>
                   <li>
                     <Link to="/career">Training & Development</Link>
