@@ -6,7 +6,6 @@ import About from "../Pages/About/About";
 import BlogPage from "../Pages/BlogPage/BlogPage";
 import ContactPage from "../Pages/ContactPage/ContactPage";
 import TeamPage from "../Pages/TeamPage/TeamPage";
-import EventsPage from "../Pages/EventsPage/EventsPage";
 import Career from "../Components/Career/Career";
 import GalleryPage from "../Pages/GallaryPage/GalleryPage";
 import HROperations from "../Pages/WhatWeDo/Business-Operations/Hr-Operations/HROperations";
@@ -21,6 +20,7 @@ import ItTRaining from "../Components/IT-Service/IT TRAINING & CHANGE MANAGEMENT
 import Network from "../Components/IT-Service/NetworkOperations/Network";
 import PlanningPolicy from "../Components/Solutions/HR-Strategy/PlanningPolicy";
 import PmsKpi from "../Components/Solutions/HR-Strategy/PMS-KPI/PmsKpi";
+import CompensationSurvey from "../Components/Solutions/HR-Strategy/Compensation-Survey/CompensationSurvey";
 
 const router = createBrowserRouter([
   {
@@ -103,6 +103,10 @@ const router = createBrowserRouter([
       {
         path: "/pms-kpi",
         element: <PmsKpi></PmsKpi>,
+      },
+      {
+        path: "/compensation-survey",
+        element: <CompensationSurvey></CompensationSurvey>,
       },
     ],
   },
