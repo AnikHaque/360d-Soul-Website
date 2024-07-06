@@ -1,110 +1,104 @@
 const Blog = () => {
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-      <section className="text-gray-600 body-font overflow-hidden">
-        <div className=" px-5 py-24">
-          <div className="-my-8 divide-y-2 divide-gray-100">
-            <div className="py-8 flex flex-wrap md:flex-nowrap">
-              <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                <span className="font-semibold title-font text-gray-700">
-                  CATEGORY
-                </span>
-                <span className="mt-1 text-gray-500 text-sm">12 Jun 2019</span>
-              </div>
-              <div className="md:flex-grow">
-                <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">
-                  Bitters hashtag waistcoat fashion axe chia unicorn
-                </h2>
-                <p className="leading-relaxed">
-                  Glossier echo park pug, church-key sartorial biodiesel
-                  vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf
-                  moon party messenger bag selfies, poke vaporware kombucha
-                  lumbersexual pork belly polaroid hoodie portland craft beer.
-                </p>
-                <a className="text-indigo-500 inline-flex items-center mt-4">
-                  Learn More
-                  <svg
-                    className="w-4 h-4 ml-2"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    fill="none"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <path d="M5 12h14"></path>
-                    <path d="M12 5l7 7-7 7"></path>
-                  </svg>
+      <section class="py-10 bg-white sm:py-16 lg:py-24">
+        <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+          <div class="max-w-2xl mx-auto text-center">
+            <h2 class="text-3xl font-normal leading-tight text-black sm:text-4xl lg:text-5xl">
+              Latest from blog
+            </h2>
+            <p class="max-w-xl mx-auto mt-4 text-base leading-relaxed text-gray-600">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis.
+            </p>
+          </div>
+
+          <div class="grid max-w-md grid-cols-1 mx-auto mt-12 lg:max-w-full lg:mt-16 lg:grid-cols-3 gap-x-16 gap-y-12">
+            <div>
+              <a href="#" title="" class="block aspect-w-4 aspect-h-3">
+                <img
+                  class="object-cover w-full h-full"
+                  src="https://cdn.rareblocks.xyz/collection/celebration/images/blog/1/blog-post-1.jpg"
+                  alt=""
+                />
+              </a>
+              <span class="inline-flex px-4 py-2 text-xs font-semibold tracking-widest uppercase rounded-full text-rose-500 bg-rose-100 mt-9">
+                {" "}
+                Technology{" "}
+              </span>
+              <p class="mt-6 text-xl font-semibold">
+                <a href="#" title="" class="text-black">
+                  {" "}
+                  How to mange your remote team?{" "}
                 </a>
-              </div>
+              </p>
+              <p class="mt-4 text-gray-600">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+              </p>
+              <div class="h-0 mt-6 mb-4 border-t-2 border-gray-200 border-dashed"></div>
+              <span class="block text-sm font-bold tracking-widest text-gray-500 uppercase">
+                {" "}
+                Martin Jones . June 12, 2021{" "}
+              </span>
             </div>
-            <div className="py-8 flex flex-wrap md:flex-nowrap">
-              <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                <span className="font-semibold title-font text-gray-700">
-                  CATEGORY
-                </span>
-                <span className="mt-1 text-gray-500 text-sm">12 Jun 2019</span>
-              </div>
-              <div className="md:flex-grow">
-                <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">
-                  Meditation bushwick direct trade taxidermy shaman
-                </h2>
-                <p className="leading-relaxed">
-                  Glossier echo park pug, church-key sartorial biodiesel
-                  vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf
-                  moon party messenger bag selfies, poke vaporware kombucha
-                  lumbersexual pork belly polaroid hoodie portland craft beer.
-                </p>
-                <a className="text-indigo-500 inline-flex items-center mt-4">
-                  Learn More
-                  <svg
-                    className="w-4 h-4 ml-2"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    fill="none"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <path d="M5 12h14"></path>
-                    <path d="M12 5l7 7-7 7"></path>
-                  </svg>
+
+            <div>
+              <a href="#" title="" class="block aspect-w-4 aspect-h-3">
+                <img
+                  class="object-cover w-full h-full"
+                  src="https://cdn.rareblocks.xyz/collection/celebration/images/blog/1/blog-post-2.jpg"
+                  alt=""
+                />
+              </a>
+              <span class="inline-flex px-4 py-2 text-xs font-semibold tracking-widest uppercase rounded-full text-sky-500 bg-sky-100 mt-9">
+                {" "}
+                Marketing{" "}
+              </span>
+              <p class="mt-6 text-xl font-semibold">
+                <a href="#" title="" class="text-black">
+                  {" "}
+                  6 Product launching emails you want to use on next campaign.{" "}
                 </a>
-              </div>
+              </p>
+              <p class="mt-4 text-gray-600">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+              </p>
+              <div class="h-0 mt-6 mb-4 border-t-2 border-gray-200 border-dashed"></div>
+              <span class="block text-sm font-bold tracking-widest text-gray-500 uppercase">
+                {" "}
+                Martin Jones . June 12, 2021{" "}
+              </span>
             </div>
-            <div className="py-8 flex flex-wrap md:flex-nowrap">
-              <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                <span className="font-semibold title-font text-gray-700">
-                  CATEGORY
-                </span>
-                <span className="text-sm text-gray-500">12 Jun 2019</span>
-              </div>
-              <div className="md:flex-grow">
-                <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">
-                  Woke master cleanse drinking vinegar salvia
-                </h2>
-                <p className="leading-relaxed">
-                  Glossier echo park pug, church-key sartorial biodiesel
-                  vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf
-                  moon party messenger bag selfies, poke vaporware kombucha
-                  lumbersexual pork belly polaroid hoodie portland craft beer.
-                </p>
-                <a className="text-indigo-500 inline-flex items-center mt-4">
-                  Learn More
-                  <svg
-                    className="w-4 h-4 ml-2"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    fill="none"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <path d="M5 12h14"></path>
-                    <path d="M12 5l7 7-7 7"></path>
-                  </svg>
+
+            <div>
+              <a href="#" title="" class="block aspect-w-4 aspect-h-3">
+                <img
+                  class="object-cover w-full h-full"
+                  src="https://cdn.rareblocks.xyz/collection/celebration/images/blog/1/blog-post-3.jpg"
+                  alt=""
+                />
+              </a>
+              <span class="inline-flex px-4 py-2 text-xs font-semibold tracking-widest uppercase rounded-full text-sky-500 bg-sky-100 mt-9">
+                {" "}
+                Marketing{" "}
+              </span>
+              <p class="mt-6 text-xl font-semibold">
+                <a href="#" title="" class="text-black">
+                  {" "}
+                  Learn from the best: 7 email marketing ideas you can use{" "}
                 </a>
-              </div>
+              </p>
+              <p class="mt-4 text-gray-600">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+              </p>
+              <div class="h-0 mt-6 mb-4 border-t-2 border-gray-200 border-dashed"></div>
+              <span class="block text-sm font-bold tracking-widest text-gray-500 uppercase">
+                {" "}
+                Martin Jones . June 12, 2021{" "}
+              </span>
             </div>
           </div>
         </div>
