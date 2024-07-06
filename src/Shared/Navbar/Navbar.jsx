@@ -22,7 +22,7 @@ const Navbar = () => {
                     <Link to="/planning-policy">Planning & Policy</Link>
                   </li>
                   <li>
-                    <Link to="/career">PMS * KPI</Link>
+                    <Link to="/pms-kpi">PMS * KPI</Link>
                   </li>
                   <li>
                     <Link to="/career">Compensation Survey</Link>

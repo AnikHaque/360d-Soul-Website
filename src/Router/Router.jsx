@@ -20,6 +20,7 @@ import ITGovernance from "../Components/IT-Service/IT GOVERNANCE & COMPLIANCE/IT
 import ItTRaining from "../Components/IT-Service/IT TRAINING & CHANGE MANAGEMENT/ItTRaining";
 import Network from "../Components/IT-Service/NetworkOperations/Network";
 import PlanningPolicy from "../Components/Solutions/HR-Strategy/PlanningPolicy";
+import PmsKpi from "../Components/Solutions/HR-Strategy/PMS-KPI/PmsKpi";
 
 const router = createBrowserRouter([
   {
@@ -98,6 +99,10 @@ const router = createBrowserRouter([
       {
         path: "/network",
         element: <Network></Network>,
+      },
+      {
+        path: "/pms-kpi",
+        element: <PmsKpi></PmsKpi>,
       },
     ],
   },
