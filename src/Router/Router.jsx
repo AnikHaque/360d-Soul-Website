@@ -19,6 +19,7 @@ import ITSecurityRiskManagement from "../Components/IT-Service/IT SECURITY & RIS
 import ITGovernance from "../Components/IT-Service/IT GOVERNANCE & COMPLIANCE/ITGovernance";
 import ItTRaining from "../Components/IT-Service/IT TRAINING & CHANGE MANAGEMENT/ItTRaining";
 import Network from "../Components/IT-Service/NetworkOperations/Network";
+import PlanningPolicy from "../Components/Solutions/HR-Strategy/PlanningPolicy";
 
 const router = createBrowserRouter([
   {
@@ -47,8 +48,8 @@ const router = createBrowserRouter([
         element: <TeamPage></TeamPage>,
       },
       {
-        path: "/our-events",
-        element: <EventsPage></EventsPage>,
+        path: "/planning-policy",
+        element: <PlanningPolicy></PlanningPolicy>,
       },
       {
         path: "/career",

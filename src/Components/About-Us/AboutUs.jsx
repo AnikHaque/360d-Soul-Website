@@ -140,7 +140,9 @@ const AboutUs = () => {
                   />
                 </svg>
               </div>
-              <h3 class="mt-8 text-2xl font-semibold text-black">Our Mission</h3>
+              <h3 class="mt-8 text-2xl font-semibold text-black">
+                Our Mission
+              </h3>
               <p class="mt-4 text-sm text-gray-600 text-justify">
                 At 360D Soul Ltd., our mission is to provide user-friendly,
                 high-quality resourcing solutions that are trusted, dynamic, and

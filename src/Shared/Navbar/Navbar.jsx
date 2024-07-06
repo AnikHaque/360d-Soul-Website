@@ -19,7 +19,7 @@ const Navbar = () => {
                 <summary>HR Strategy</summary>
                 <ul className="bg-base-300 text-black  rounded-t-none min-w-52">
                   <li>
-                    <Link to="/our-events">Planning & Policy</Link>
+                    <Link to="/planning-policy">Planning & Policy</Link>
                   </li>
                   <li>
                     <Link to="/career">PMS * KPI</Link>
@@ -48,7 +48,7 @@ const Navbar = () => {
                 <summary>IT Strategy</summary>
                 <ul className="bg-base-300 text-black  rounded-t-none min-w-52">
                   <li>
-                    <Link to="/our-events">Planning & Policy</Link>
+                    <Link to="/planning-policy">Planning & Policy</Link>
                   </li>
                   <li>
                     <Link to="/career">IT Infrastracture</Link>
