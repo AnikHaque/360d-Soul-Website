@@ -15,55 +15,10 @@ const Navbar = () => {
           <summary>Solutions</summary>
           <ul className="bg-base-300 text-black  rounded-t-none min-w-52 z-50">
             <li>
-              <details>
-                <summary>HR Strategy</summary>
-                <ul className="bg-base-300 text-black  rounded-t-none min-w-52">
-                  <li>
-                    <Link to="/planning-policy">Planning & Policy</Link>
-                  </li>
-                  <li>
-                    <Link to="/pms-kpi">PMS * KPI</Link>
-                  </li>
-                  <li>
-                    <Link to="/compensation-survey">Compensation Survey</Link>
-                  </li>
-                  <li>
-                    <details>
-                      <summary>Talent Management</summary>
-                      <ul className="bg-base-300 text-black  rounded-t-none min-w-52">
-                        <li>
-                          <Link to="/our-events">Talent Development</Link>
-                        </li>
-                        <li>
-                          <Link to="/career">Talent Optimization</Link>
-                        </li>
-                      </ul>
-                    </details>
-                  </li>
-                </ul>
-              </details>
+              <Link to="/hr-strategy">HR Strategy</Link>
             </li>
             <li>
-              <details>
-                <summary>IT Strategy</summary>
-                <ul className="bg-base-300 text-black  rounded-t-none min-w-52">
-                  <li>
-                    <Link to="/planning-policy">Planning & Policy</Link>
-                  </li>
-                  <li>
-                    <Link to="/career">IT Infrastracture</Link>
-                  </li>
-                  <li>
-                    <Link to="/career">Integrated Security</Link>
-                  </li>
-                  <li>
-                    <Link to="/career">Disaster Recovery</Link>
-                  </li>
-                  <li>
-                    <Link to="/career">Business Automation</Link>
-                  </li>
-                </ul>
-              </details>
+              <Link to="IT-strategy">IT Strategy</Link>
             </li>
           </ul>
         </details>

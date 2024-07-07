@@ -21,6 +21,7 @@ import Network from "../Components/IT-Service/NetworkOperations/Network";
 import PlanningPolicy from "../Components/Solutions/HR-Strategy/PlanningPolicy";
 import PmsKpi from "../Components/Solutions/HR-Strategy/PMS-KPI/PmsKpi";
 import CompensationSurvey from "../Components/Solutions/HR-Strategy/Compensation-Survey/CompensationSurvey";
+import HRStrategy from "../Components/Solutions/HR-Strategy/HRStrategy";
 
 const router = createBrowserRouter([
   {
@@ -107,6 +108,10 @@ const router = createBrowserRouter([
       {
         path: "/compensation-survey",
         element: <CompensationSurvey></CompensationSurvey>,
+      },
+      {
+        path: "/hr-strategy",
+        element: <HRStrategy></HRStrategy>,
       },
     ],
   },
