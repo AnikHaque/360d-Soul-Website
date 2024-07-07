@@ -28,51 +28,7 @@ const Navbar = () => {
           <summary>Services</summary>
           <ul className="bg-base-300 text-black  rounded-t-none min-w-52 z-50">
             <li>
-              <details>
-                <summary>HR Services</summary>
-                <ul className="bg-base-300 text-black  rounded-t-none min-w-52">
-                  <li>
-                    <Link to="/our-events">HRIS</Link>
-                  </li>
-                  <li>
-                    <details>
-                      <summary>HR Services</summary>
-                      <ul className="bg-base-300 text-black  rounded-t-none min-w-52">
-                        <li>
-                          <Link to="/our-events">HRIS</Link>
-                        </li>
-                        <li>
-                          <Link to="/career">Talent Hunt</Link>
-                        </li>
-                        <li>
-                          <Link to="/career">Training & Development</Link>
-                        </li>
-                        <li>
-                          <Link to="/career">Compliance & Regulatory</Link>
-                        </li>
-                        <li>
-                          <Link to="/career">HR Audit</Link>
-                        </li>
-                        <li>
-                          <Link to="/career">Third Party Service</Link>
-                        </li>
-                      </ul>
-                    </details>
-                  </li>
-                  <li>
-                    <Link to="/career">Training & Development</Link>
-                  </li>
-                  <li>
-                    <Link to="/career">Compliance & Regulatory</Link>
-                  </li>
-                  <li>
-                    <Link to="/career">HR Audit</Link>
-                  </li>
-                  <li>
-                    <Link to="/career">Third Party Service</Link>
-                  </li>
-                </ul>
-              </details>
+              <Link to="/Hr-Services">HR Services</Link>
             </li>
             <li>
               <details>

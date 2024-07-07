@@ -22,6 +22,8 @@ import PlanningPolicy from "../Components/Solutions/HR-Strategy/PlanningPolicy";
 import PmsKpi from "../Components/Solutions/HR-Strategy/PMS-KPI/PmsKpi";
 import CompensationSurvey from "../Components/Solutions/HR-Strategy/Compensation-Survey/CompensationSurvey";
 import HRStrategy from "../Components/Solutions/HR-Strategy/HRStrategy";
+import HRServices from "../Components/Services/HR-Services/HRServices";
+import HRServicesMain from "../Components/Services/HR-Services/HRServicesMain";
 
 const router = createBrowserRouter([
   {
@@ -112,6 +114,10 @@ const router = createBrowserRouter([
       {
         path: "/hr-strategy",
         element: <HRStrategy></HRStrategy>,
+      },
+      {
+        path: "/hr-services",
+        element: <HRServicesMain></HRServicesMain>,
       },
     ],
   },
