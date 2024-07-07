@@ -138,7 +138,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="bg-black text-white">
+    <div className="bg-[#333e68] text-white ">
       <div className="navbar container mx-auto ">
         <div className="navbar-start">
           <div className="dropdown">
