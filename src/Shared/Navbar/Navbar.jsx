@@ -74,7 +74,7 @@ const Navbar = () => {
               <Link to="/blog">Offshore Management & Consultation</Link>
             </li>
             <li>
-              <Link to="/blog">Career Counselling</Link>
+              <Link to="/career-counselling">Career Counselling</Link>
             </li>
             <li>
               <Link to="/blog">Health Tourism</Link>
@@ -93,6 +93,7 @@ const Navbar = () => {
       </li>
     </>
   );
+
   return (
     <div className="bg-[#333e68] text-white ">
       <div className="navbar container mx-auto ">
