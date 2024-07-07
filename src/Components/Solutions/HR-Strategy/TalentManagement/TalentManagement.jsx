@@ -4,7 +4,7 @@ const TalentManagement = () => {
       <h2 className="text-3xl font-normal leading-tight text-black sm:text-4xl lg:text-5xl text-center mb-10">
         Talent Management
       </h2>
-      <div className="bg-[#f9fafb]">
+      <div className="bg-[#ecf2fa]">
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 ">
           <div className="flex flex-col bg-white border rounded shadow-sm md:justify-center lg:flex-row border-dotted border-blue-400 border-2 ">
             <div className="flex flex-col justify-between p-5 border-b sm:p-10 lg:border-b-0 lg:border-r lg:w-1/2">
