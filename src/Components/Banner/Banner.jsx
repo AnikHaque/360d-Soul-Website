@@ -1,9 +1,28 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-
+import { useEffect, useRef } from "react";
 import "./Banner.css";
 
 const Banner = () => {
+  const bannerRef = useRef(null);
+
+  useEffect(() => {
+    const banner = bannerRef.current;
+
+    if (banner) {
+      for (let i = 0; i < 50; i++) {
+        let bubble = document.createElement("div");
+        bubble.className = "bubble";
+        bubble.style.left = `${Math.random() * 100}%`;
+        bubble.style.animationDuration = `${5 + Math.random() * 5}s`;
+        bubble.style.width = `${10 + Math.random() * 40}px`;
+        bubble.style.height = bubble.style.width;
+
+        banner.appendChild(bubble);
+      }
+    }
+  }, []);
+
   return (
     <Carousel
       additionalTransfrom={0}
@@ -50,7 +69,7 @@ const Banner = () => {
       swipeable
     >
       {/* Add your actual content here */}
-      <div className="banner flex items-center">
+      <div className="banner flex items-center" ref={bannerRef}>
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
           <div className="flex flex-col bg-white border rounded shadow-sm md:justify-center lg:flex-row">
             <div className="flex flex-col justify-between p-5 border-b sm:p-10 lg:border-b-0 lg:border-r lg:w-1/2">
