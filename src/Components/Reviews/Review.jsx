@@ -50,99 +50,57 @@ const Review = () => {
           swipeable
         >
           <div className="">
-            <section className="">
-              <div className="container px-6 py-10 mx-auto">
-                <h1 className="text-2xl font-semibold text-center capitalize lg:text-3xl text-white">
-                  What our <span className="text-blue-500 ">clients</span> say
-                </h1>
-
-                <p className="max-w-2xl mx-auto mt-6 text-center text-gray-500 dark:text-gray-300">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-                  incidunt ex placeat modi magni quia error alias, adipisci rem
-                  similique, at omnis eligendi optio eos harum.
-                </p>
-
-                <section className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 lg:grid-cols-2 xl:grid-cols-3">
-                  <div className="p-8 border rounded-lg dark:border-gray-700">
-                    <p className="leading-loose text-gray-500 dark:text-gray-400">
-                      “Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Tempore quibusdam ducimus libero ad tempora doloribus
-                      expedita laborum saepe voluptas perferendis delectus
-                      assumenda rerum, culpa aperiam dolorum, obcaecati corrupti
-                      aspernatur a.”.
-                    </p>
-
-                    <div className="flex items-center mt-8 -mx-2">
+            <section class="py-10 bg-gray-50 sm:py-16 lg:py-24">
+              <div class="max-w-6xl px-4 mx-auto sm:px-6 lg:px-8">
+                <div class="grid items-center grid-cols-1 lg:items-stretch md:grid-cols-2 gap-y-8 gap-x-12 xl:gap-x-20">
+                  <div class="relative">
+                    <div class="aspect-w-4 aspect-h-3">
                       <img
-                        className="object-cover mx-2 rounded-full w-14 shrink-0 h-14 ring-4 ring-gray-300 dark:ring-gray-700"
-                        src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+                        class="object-cover w-full h-full"
+                        src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/5/man-using-phone.jpg"
                         alt=""
-                      ></img>
+                      />
+                    </div>
 
-                      <div className="mx-2">
-                        <h1 className="font-semibold text-white dark:text-white">
-                          Robert
-                        </h1>
-                        <span className="text-sm text-white">
-                          CTO, Robert Consultency
-                        </span>
+                    <div class="absolute inset-0 flex items-center justify-center">
+                      <div class="flex items-center justify-center rounded-full w-28 h-28 bg-white/20">
+                        <button
+                          type="button"
+                          class="flex items-center justify-center w-20 h-20 text-white transition-all duration-200 rounded-full bg-gradient-to-r from-fuchsia-600 to-blue-600 hover:opacity-90"
+                        >
+                          <svg
+                            class="w-6 h-6 lg:w-8 lg:h-8"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            fill="currentColor"
+                          >
+                            <path d="M8 6.82v10.36c0 .79.87 1.27 1.54.84l8.14-5.18c.62-.39.62-1.29 0-1.69L9.54 5.98C8.87 5.55 8 6.03 8 6.82z"></path>
+                          </svg>
+                        </button>
                       </div>
                     </div>
                   </div>
 
-                  <div className="p-8 border rounded-lg dark:border-gray-700">
-                    <p className="leading-loose text-gray-500 dark:text-gray-400">
-                      “Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Tempore quibusdam ducimus libero ad tempora doloribus
-                      expedita laborum saepe voluptas perferendis delectus
-                      assumenda rerum, culpa aperiam dolorum, obcaecati corrupti
-                      aspernatur a.”.
-                    </p>
+                  <div class="flex flex-col justify-between md:py-5">
+                    <blockquote>
+                      <p class="text-2xl leading-relaxed text-black">
+                        You made it so simple. My new site is so much faster and
+                        easier to work with than my old site. I just choose the
+                        page, make the change and click save. No need to think
+                        twice before making it.
+                      </p>
+                    </blockquote>
 
-                    <div className="flex items-center mt-8 -mx-2">
-                      <img
-                        className="object-cover mx-2 rounded-full w-14 shrink-0 h-14 ring-4 ring-gray-300 dark:ring-gray-700"
-                        src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
-                        alt=""
-                      ></img>
-                      <div className="mx-2">
-                        <h1 className="font-semibold text-white dark:text-white">
-                          Jeny Doe
-                        </h1>
-                        <span className="text-sm text-white">
-                          CEO, Jeny Consultency
-                        </span>
-                      </div>
+                    <div class="mt-6 lg:mt-auto">
+                      <p class="text-xl font-semibold text-black">
+                        Jenny Wilson
+                      </p>
+                      <p class="mt-2 text-base text-gray-600">
+                        Co-founder, Appson
+                      </p>
                     </div>
                   </div>
-
-                  <div className="p-8 border rounded-lg dark:border-gray-700">
-                    <p className="leading-loose text-gray-500 dark:text-gray-400">
-                      “Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Tempore quibusdam ducimus libero ad tempora doloribus
-                      expedita laborum saepe voluptas perferendis delectus
-                      assumenda rerum, culpa aperiam dolorum, obcaecati corrupti
-                      aspernatur a.”.
-                    </p>
-
-                    <div className="flex items-center mt-8 -mx-2">
-                      <img
-                        className="object-cover mx-2 rounded-full w-14 shrink-0 h-14 ring-4 ring-gray-300 dark:ring-gray-700"
-                        src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
-                        alt=""
-                      ></img>
-
-                      <div className="mx-2">
-                        <h1 className="font-semibold text-white dark:text-white">
-                          Ema Watson{" "}
-                        </h1>
-                        <span className="text-sm text-white">
-                          Marketing Manager at Stech
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </section>
+                </div>
               </div>
             </section>
           </div>
