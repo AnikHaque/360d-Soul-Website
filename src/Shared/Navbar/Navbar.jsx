@@ -31,44 +31,7 @@ const Navbar = () => {
               <Link to="/Hr-Services">HR Services</Link>
             </li>
             <li>
-              <details>
-                <summary>IT Services</summary>
-                <ul className="bg-base-300 text-black  rounded-t-none min-w-52">
-                  <li>
-                    <Link to="/our-events">Cloud Services</Link>
-                  </li>
-                  <li>
-                    <Link to="/career">Cyber Security</Link>
-                  </li>
-                  <li>
-                    <Link to="/career">Project Management</Link>
-                  </li>
-                  <li>
-                    <Link to="/career">Data Analytics</Link>
-                  </li>
-                  <li>
-                    <Link to="/career">Technology Training</Link>
-                  </li>
-                  <li>
-                    <Link to="/career">Vendor Management</Link>
-                  </li>
-                  <li>
-                    <Link to="/career">Vulnerability Assessment</Link>
-                  </li>
-                  <li>
-                    <Link to="/career">Pnetration Testing</Link>
-                  </li>
-                  <li>
-                    <Link to="/career">Managed IT Services</Link>
-                  </li>
-                  <li>
-                    <Link to="/career">Web Services</Link>
-                  </li>
-                  <li>
-                    <Link to="/career">Brand & Marketing</Link>
-                  </li>
-                </ul>
-              </details>
+              <Link to="/IT-services">IT Services</Link>
             </li>
             <li>
               <Link to="/blog">Offshore Management & Consultation</Link>

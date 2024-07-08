@@ -123,6 +123,10 @@ const router = createBrowserRouter([
         path: "/career-counselling",
         element: <CareerCounsellingMain></CareerCounsellingMain>,
       },
+      {
+        path: "/IT-services",
+        element: <CareerCounsellingMain></CareerCounsellingMain>,
+      },
     ],
   },
 ]);
